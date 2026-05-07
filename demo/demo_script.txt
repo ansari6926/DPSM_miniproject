@@ -1,0 +1,31 @@
+[SCENE START]
+
+**Visual**: Title screen showing the project name: "Smart Railway Platform Crowd Monitoring and Safety Alert System using ESP32".
+**Audio**: (Upbeat, professional background music playing softly)
+**Voiceover**: "Welcome to the demonstration of our Smart Railway Platform Crowd Monitoring System, an IoT-based solution designed to enhance passenger safety and prevent platform overcrowding."
+
+**Visual**: Cut to the Wokwi Simulation interface showing the ESP32, sensors, LEDs, Buzzer, and OLED display.
+**Voiceover**: "Here is our complete circuit simulation running on Wokwi. We are using an ESP32 microcontroller as the brain of our system, connected to an ultrasonic sensor, a PIR motion sensor, an OLED display, and a visual/audio alert array."
+
+**Visual**: Zoom in on the OLED display showing "Initializing..." then transitioning to the live dashboard.
+**Voiceover**: "Upon booting, the system initializes all sensors and displays the real-time status dashboard on the OLED screen. Currently, the platform is clear."
+
+**Visual**: The cursor clicks the Ultrasonic sensor, and the slider is set to 180 cm. The Green LED lights up.
+**Voiceover**: "When the distance is clear, the estimated crowd density is low. The system registers this as 'SAFE', illuminating the Green LED."
+
+**Visual**: The cursor clicks the PIR sensor, simulating motion. The OLED updates to "Motion: Detected".
+**Voiceover**: "The PIR sensor continuously monitors for human movement. As passengers arrive, the motion is registered immediately."
+
+**Visual**: The cursor drags the Ultrasonic sensor distance slider down to 80 cm. The Yellow LED lights up.
+**Voiceover**: "As more people gather, the average proximity drops. The system detects a medium crowd level, triggering a 'WARNING' status and lighting the Yellow LED to alert passengers to spread out."
+
+**Visual**: The cursor drags the distance slider further down to 30 cm. The Red LED lights up, and the buzzer symbol indicates sound is playing. The OLED flashes "DANGER: HIGH".
+**Voiceover**: "If the density crosses the critical threshold, mimicking severe overcrowding, the system instantly escalates to 'DANGER'. The Red LED flashes, and the buzzer sounds a loud alarm to alert authorities to immediately halt platform entry."
+
+**Visual**: Cut to the Serial Monitor showing the live data logs.
+**Voiceover**: "Simultaneously, all analytical data is streamed to the Serial Monitor, which can be easily routed to a cloud dashboard for remote monitoring by station masters."
+
+**Visual**: Fade to a closing slide with the author's name and GitHub repository link.
+**Voiceover**: "This low-cost, scalable system provides a robust first line of defense against stampedes, making our smart cities safer. Thank you for watching!"
+
+[SCENE END]
